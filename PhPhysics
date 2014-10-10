@@ -1,0 +1,13 @@
+#!/usr/local/env python3
+
+_pound_to_kilogram = 0.453592
+
+Class Kilograms:
+  def __init__(self, kilograms=None, pounds=None):
+    if kilograms is not None:
+      self.value = kilograms
+    elif pounds is not None:
+      self.value = pounds * _pound_to_kilogram
+    else:
+      raise ValueError("You must specify kilograms or pounds.")
+      
