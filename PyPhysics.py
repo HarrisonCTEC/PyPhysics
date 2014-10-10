@@ -1,9 +1,9 @@
 #!/usr/local/env python3
 
 class Kilograms:
-  _pound_to_kilogram = 0.453592
 
   def __init__(self, kilograms=None, pounds=None):
+    self._pound_to_kilogram = 0.453592
     if kilograms is not None:
       self.value = kilograms
       self.pounds = kilograms / _pound_to_kilogram
