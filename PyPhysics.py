@@ -13,6 +13,6 @@ class Kilograms:
     else:
       raise ValueError("You must specify kilograms or pounds.")
       
-  def __int__(self)__:
+  def __int__(self):
     return self.value
       
