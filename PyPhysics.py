@@ -1,6 +1,6 @@
 #!/usr/local/env python3
 
-Class Kilograms:
+class Kilograms:
   _pound_to_kilogram = 0.453592
 
   def __init__(self, kilograms=None, pounds=None):
